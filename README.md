@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
+## Install dependecies
+1. NodeJs
+1. npm
+1. typescript
+
+## Angular
+1. **ng new my-app**: Creates new app
+1. **ng server -o**: Start the server
+
+### Component
+Define with ```@Component```:
+* *selector* html-tag to use the component
+* *templateUrl* html file to render the component
+* *stylesUrl* A list of CSS (or other styles formats) files
+Angular APP is made of components - Read [Composite pattern](https://www.geeksforgeeks.org/composite-design-pattern/) 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
